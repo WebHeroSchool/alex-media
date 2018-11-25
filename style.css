@@ -1,0 +1,47 @@
+p{
+    font-size: 66px;
+}
+@media only screen and (max-width: 1281px) {
+
+    p{
+        font-size: 66px;
+    }
+}
+
+@media only screen and (max-width: 1025px) {
+
+    p{
+        font-size: 56px;
+    }
+}
+
+
+@media only screen and (max-width: 961px) {
+    p{
+        font-size: 46px;
+    }
+
+}
+
+
+@media only screen and (max-width: 641px) {
+    p{
+        font-size: 36px;
+    }
+
+}
+
+
+@media only screen and (max-width: 481px) {
+    p{
+        font-size: 26px;
+    }
+
+}
+
+@media only screen and (max-width: 320px) {
+    p{
+        font-size: 16px;
+    }
+
+}
