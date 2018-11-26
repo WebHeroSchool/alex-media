@@ -1,0 +1,113 @@
+p{
+    font-size: 66px;
+}
+
+nav{
+    position: relative;
+}
+
+.main-menu{
+    list-style-type: none;
+    display: flex;
+    padding-left: 0;
+}
+
+.main-menu li{
+    margin-right: 25px;
+}
+
+input[type="checkbox"]{
+    display: none;
+}
+
+label{
+    display: none;
+    position: relative;
+    width: 40px;
+    height: 40px;
+}
+
+label span{
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: #5e5e5e;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+label .second{
+    top: 13px;
+}
+
+label .firth{
+    top: 26px;
+}
+
+label .fourth{
+    top: 39px;
+}
+
+@media only screen and (max-width: 1281px) {
+
+    p{
+        font-size: 66px;
+    }
+}
+
+@media only screen and (max-width: 1025px) {
+
+    p{
+        font-size: 56px;
+    }
+}
+
+
+@media only screen and (max-width: 961px) {
+    p{
+        font-size: 46px;
+    }
+
+}
+
+
+@media only screen and (max-width: 641px) {
+    p{
+        font-size: 36px;
+    }
+
+}
+
+
+@media only screen and (max-width: 481px) {
+    p{
+        font-size: 26px;
+    }
+    label{
+        display: block;
+    }
+
+    .main-menu{
+        flex-direction: column;
+        display: none;
+    }
+
+    input[type="checkbox"]:checked ~ .main-menu{
+        display: block;
+    }
+
+    .main-menu li{
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+
+
+}
+
+@media only screen and (max-width: 320px) {
+    p{
+        font-size: 16px;
+    }
+
+}
